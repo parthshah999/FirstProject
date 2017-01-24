@@ -15,7 +15,7 @@ namespace FirstProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page will cause conflict on merge with local code.";
 
             return View();
         }
